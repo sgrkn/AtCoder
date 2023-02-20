@@ -1,0 +1,6 @@
+n=int(input())
+a=max(map(int,input().split()))
+b=min(map(int,input().split()))
+
+ans=max(b-a+1, 0) # - のときは0にする
+print(ans)
