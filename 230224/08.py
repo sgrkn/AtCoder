@@ -6,4 +6,4 @@ for i in range(n):
     s = 0
     for j in range(k):
         s+=a[i][j]
-        print(s)
+    print(s)
